@@ -8,9 +8,9 @@ import {NavLink} from "react-router-dom";
 const Header = () => {
  
 return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg" >
         <Container fluid>
-            <Navbar.Brand href="/" style={{"color":'#DC3545'}}>
+            <Navbar.Brand href="/" style={{"color":'#DC3545'}} c>
             <FontAwesomeIcon icon={faPlay} /> RedFlix
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
